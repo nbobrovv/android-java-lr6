@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Моя библиотека</string>
+    <string name="NameT">Наименование:</string>
+    <string name="CenaT">Автор</string>
+    <string name="KolvoT">Жанр</string>
+    <string name="GenreHint">Жанр</string>
+</resources>

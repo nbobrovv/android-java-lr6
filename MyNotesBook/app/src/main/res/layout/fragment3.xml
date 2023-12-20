@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFDAFC">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp">
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Введите данные книги для изменения "
+        android:textSize="24dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <EditText
+        android:id="@+id/name3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/NameT"
+        android:inputType="textPersonName"
+        android:textSize="24dp" />
+    <EditText
+        android:id="@+id/author3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/CenaT"
+        android:textSize="24dp"
+        android:inputType="textPersonName"/>
+
+    <Spinner
+        android:id="@+id/style3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/GenreHint"
+        android:textSize="24dp"
+        android:layout_marginTop="8dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:background="@color/black" />
+
+    <Button
+        android:id="@+id/btnUpdate3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        app:backgroundTint="@null"
+        android:background="@drawable/r_button"
+        android:padding="6dp"
+        android:textSize="16dp"
+        android:text="Изменить данные"/>
+
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
